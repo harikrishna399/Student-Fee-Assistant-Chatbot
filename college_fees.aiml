@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0.1">
+
+<category>
+<pattern>SV UNIVERSITY</pattern>
+<template>
+SV University Fees:
+CSE - 50000, Hostel - 40000, Exam - 5000
+ECE - 45000, Hostel - 40000, Exam - 5000
+CIVIL - 40000, Hostel - 35000, Exam - 5000
+</template>
+</category>
+
+<category>
+<pattern>SVCN</pattern>
+<template>
+SVCN Fees:
+CSE - 60000, Hostel - 45000, Exam - 6000
+ECE - 55000, Hostel - 45000, Exam - 6000
+CIVIL - 50000, Hostel - 40000, Exam - 6000
+</template>
+</category>
+
+<category>
+<pattern>PBR VITS</pattern>
+<template>
+PBR VITS Fees:
+CSE - 55000, Hostel - 42000, Exam - 5500
+ECE - 50000, Hostel - 42000, Exam - 5500
+CIVIL - 45000, Hostel - 38000, Exam - 5500
+</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<template>
+Enter valid college name (SV UNIVERSITY / SVCN / PBR VITS)
+</template>
+</category>
+
+</aiml>
